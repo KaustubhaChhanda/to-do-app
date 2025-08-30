@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-brand">MERN Todo</Link>
+        <Link to="/" className="navbar-brand">TODO</Link>
         <div className="navbar-links">
           {isLoggedIn ? (
             <button onClick={logout} className="navbar-link">Logout</button>
